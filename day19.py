@@ -84,6 +84,7 @@ for line in lines:
 for s in all_substitutions(med):
   found_instance(s)
 print len(found)
+
 m = float("inf")
 def find_length(s, d):
   global m, med
